@@ -1,0 +1,23 @@
+.side-nav {
+  /* background-color: rgb(158, 70, 196); */
+  background-color: #a43dbd;
+}
+
+.side-nav a {
+  display: flex;
+  align-items: center;
+  letter-spacing: 1px;
+  font-weight: 200;
+  line-height: 2.5rem;
+  font-size: 1rem;
+}
+
+.side-nav i {
+  padding: 0 0.5rem 0.4rem 0;
+}
+
+.content {
+  padding: 1rem;
+  background-color: white;
+  color: black;
+}
