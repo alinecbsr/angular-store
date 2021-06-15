@@ -29,6 +29,11 @@
       "id": 6,
       "name": "Mocha",
       "price": 6.99
+    },
+    {
+      "name": "Pingo",
+      "price": "2.50",
+      "id": 7
     }
   ]
 }

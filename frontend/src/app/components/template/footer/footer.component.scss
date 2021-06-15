@@ -1,16 +1,17 @@
-@import '../../../../styles.scss';
+@import "../../../../styles.scss";
 
 mat-toolbar {
-  background: rgb(207, 156, 229);
+  background: #f19d5d;
   display: flex;
   align-items: center;
   justify-content: center;
   position: fixed;
   bottom: 0;
+  height: 64px;
 }
 
 span {
-  font-family: 'Poppins', sans-serif; 
+  font-family: "Poppins", sans-serif;
   letter-spacing: 1px;
   line-height: 2.5rem;
   font-size: 1rem;
