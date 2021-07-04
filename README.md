@@ -34,7 +34,7 @@ I created a registration application (CRUD) with creating, reading, updating, an
 <br/>
 <h2 align="center">
 
-![]()
+![](https://github.com/alinecbsr/angular-store/blob/master/frontend/.github/angularStore.gif)
 
 </h2>
 <br/>
