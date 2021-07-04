@@ -1,9 +1,15 @@
 <mat-card class="home mat-elevation-z3">
   <mat-card-title class="title">Welcome!</mat-card-title>
   <mat-card-subtitle class="subtitle">
-    System to exemplify the construction of a register in Angular
+    This is an application developed with Angular 9
   </mat-card-subtitle>
-  <ul>
-    <li *myFor="let n in [1, 2, 3]">{{n}}</li>
+  <p class="description">I created a product registration application (CRUD) with:</p>
+    <ul>
+      <li class="crud" *myFor="let crud in ['Create', 'Read', 'Update', 'Delete']">{{crud}}</li>
+    </ul>
+  <p class="description">I managed to implement in a practical and very objective way, the main concepts of Angular 9:
+  </p>
+  <ul *ngFor="let concept of concepts">
+    <li>{{concept}}</li>
   </ul>
 </mat-card>

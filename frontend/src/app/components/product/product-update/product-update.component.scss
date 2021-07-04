@@ -1,8 +1,49 @@
+mat-card-title {
+  margin-bottom: 1.5rem;
+}
+
 form {
   display: flex;
   flex-direction: column;
 }
 
+mat-form-field {
+  font-size: 1rem;
+  font-weight: 600;
+}
+
+input {
+  margin: 1rem 0;
+  font-size: 1rem;
+}
+
 button {
-  margin: 0 1rem 0 0;
+  margin: 0 0 0 1rem;
+}
+
+.mat-card {
+  background: #59a1a5;
+}
+
+.mat-raised-button.mat-orange, .mat-flat-button.mat-orange{
+  background-color: #f19d5d;
+  color: white;
+}
+
+.mat-raised-button.mat-green, .mat-flat-button.mat-green{
+  background-color: #90a77c;
+  color: white;
+}
+
+::ng-deep .mat-form-field.mat-focused .mat-form-field-label {
+  color: white !important;
+}
+::ng-deep .mat-form-field.mat-focused .mat-form-field-ripple {
+  background-color: white ;
+}
+::ng-deep .mat-form-field.mat-focused .mat-form-field-required-marker {
+  color: white ;
+}
+::ng-deep .mat-form-field.mat-focused .mat-input-element {
+  color: white ;
 }

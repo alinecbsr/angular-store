@@ -5,7 +5,7 @@ import { Directive, OnInit, Input, ViewContainerRef, TemplateRef } from '@angula
 })
 export class ForDirective implements OnInit {
 
-  @Input('myForIn') numbers: number[];
+  @Input('myForIn') methods: string[];
 
 
   constructor(
@@ -14,11 +14,11 @@ export class ForDirective implements OnInit {
   ) { }
 
   ngOnInit(): void {
-    for (let number of this.numbers) {
+    for (let method of this.methods) {
       this.container.createEmbeddedView(
-        this.template, { $implicit: number });
+        this.template, { $implicit: method });
     }
-    console.log(this.numbers);
+
   }
 
 }

@@ -3,11 +3,19 @@ table {
 }
 
 i.edit {
-  color: #d9cd26;
+  color: #a6e76c;;
   margin-right: 1rem;
 }
 
 i.delete {
-  color: #e35e6b;
+  color: #ec7592;
   margin-right: 1rem;
+}
+
+.mat-table {
+  background: #59a1a5;
+}
+
+th.mat-header-cell, td.mat-cell, td.mat-footer-cell {
+  font-size: 1rem;
 }

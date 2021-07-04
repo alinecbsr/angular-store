@@ -6,18 +6,44 @@ mat-card {
   font-size: 3rem;
   font-weight: 300;
   line-height: 1.2rem;
-  color: #303031;
-  margin-top: 1rem;
+  color: #2e5e61;
+  margin: 1rem 0 2rem 0;
 }
 
 .home .subtitle {
+  font-size: 1.3rem;
+  font-weight: 400;
+  line-height: 1.5rem;
+  color: #ec7592;
+  margin: 1rem 0 2rem 0;
+}
+
+.description {
   font-size: 1.1rem;
   font-weight: 300;
   line-height: 1.3rem;
-  color: #303031;
-  margin-top: 2rem;
+  color: #2e5e61;
+  margin-top: 1rem;
+}
+
+.crud {
+  font-size: 1rem;
+  font-weight: 300;
+  line-height: 1.2rem;
+  color: #f19d5d;
+  list-style: none;
+}
+
+ul {
+  padding: 0;
+  margin: 0;
 }
 
 li {
-  color: #303031
+  font-size: 1rem;
+  font-weight: 300;
+  line-height: 1.2rem;
+  color: #f19d5d;
+  list-style: none;
+
 }

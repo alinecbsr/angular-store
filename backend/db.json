@@ -1,39 +1,29 @@
 {
   "products": [
     {
-      "id": 1,
-      "name": "Coffè Americano",
-      "price": 5.89
-    },
-    {
       "id": 2,
       "name": "Espresso",
-      "price": 4.99
-    },
-    {
-      "name": "Double espresso",
-      "price": "6.99",
-      "id": 3
-    },
-    {
-      "id": 4,
-      "name": "Cappuccino",
-      "price": 6.99
+      "price": "1.80"
     },
     {
       "id": 5,
       "name": "Macchiato",
-      "price": 6.99
+      "price": "2.20"
     },
     {
       "id": 6,
       "name": "Mocha",
-      "price": 6.99
+      "price": "2.50"
     },
     {
       "name": "Pingo",
-      "price": "2.50",
+      "price": "0.80",
       "id": 7
+    },
+    {
+      "name": "Abatanado",
+      "price": "1.20",
+      "id": 8
     }
   ]
 }
